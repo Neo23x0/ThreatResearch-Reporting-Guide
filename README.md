@@ -2,7 +2,7 @@
 
 Offensive Research Guide to Help Defense Improve Detection
 
-Whenever you research a certain vulnerability ask yourself these questions and please answer them for us
+This guide addresses vulnerability researchers that write public reports about their work. The reason for this guide is that ... TBD
 
 ## Process Patterns
 
@@ -13,8 +13,6 @@ Whenever you research a certain vulnerability ask yourself these questions and p
 e.g. C:\ManageEngine\ServiceDesk\jre\bin\java.exe
 
 ### Does the exploited service / application spawn a certain sub process? 
-
-
 
 ## Log Patterns
 
