@@ -65,6 +65,8 @@ e.g. empty source address, uncommon characters
 
 e.g. an XML in a temp folder
 
+
+
 ### Does the exploitation create permanent files? 
 
 ## Other Traces
@@ -77,11 +79,11 @@ e.g. user login
 
 ## Optional: Provide Simple Detection Methods
 
-### Could you provide simple shell commands to check if someone has previously expolited that vulnerability?
+### Could you provide simple shell commands to check if someone has previously exploited that vulnerability?
 
 e.g. egrep "specific-url" /var/log/service.log, zgrep "specific-url" /var/log/service/*.gz
   
-### Could you provide a quick fix that can block explots until the vendor provides a solution?
+### Could you provide a quick fix that can block exploits until the vendor provides a solution?
 
 e.g. add line in server-side script to drop all requests that contain ":;" in their User-Agent field
   
