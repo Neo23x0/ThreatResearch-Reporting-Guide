@@ -87,3 +87,11 @@ e.g. egrep "specific-url" /var/log/service.log, zgrep "specific-url" /var/log/se
 
 e.g. add line in server-side script to drop all requests that contain ":;" in their User-Agent field
   
+
+## Hall of Fame
+
+The hall of fame lists good examples of published offensive research which included useful data which helped in creating detection rules. Follow the authors, they might do it again.
+
+| Author | Source | Resulting Rules |
+|---|---|---|
+| [James Horseman](https://twitter.com/JamesHorseman2) | <https://twitter.com/Horizon3Attack/status/1616062915097886732>  | [Manage Engine Java Suspicious Sub Process](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_manageengine_pattern.yml)
